@@ -1,0 +1,50 @@
+:root {
+
+  --primary-color: #2563EB;
+  --secondary-color: #304169;
+  --tertiary-color: #FF7F50;
+  --neutral-color: #64748B;
+  --white-color: #FFFFFF;
+  --black-color : #000000;
+  /* fonte utilizada do google fonts: Inter */
+  --fonte-principal: 'Inter', sans-serif;
+  
+  --border-radius-pattern: 12px;
+
+
+}
+
+/* reset de margens, padding e box-sizing para todos os elementos */
+* {
+margin: 0;
+padding: 0; 
+box-sizing: border-box; /*O Padding não aumenta o tamanho do elemento*/
+
+}
+/*------------Base do Documento------------*/
+body {
+  font-family: var(--fonte-principal);
+  background-color: var(--white-color);
+  color: var(--neutral-color);
+  line-height: 1.5; /*espacamento entre linhas para melhorar a legibilidade*/
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /*centraliza o container horizontalmente*/
+  padding: 0 24px; /*espaçamento interno para evitar que o conteúdo encoste nas bordas*/
+}
+
+.secao-titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--black-color);
+  text-align: center;
+
+}
+
+secao-subtitulo {
+  font-size: 1.25rem;
+  color: var(--neutral-color);
+  text-align: center;
+}
