@@ -1,0 +1,10 @@
+.stats{
+
+    text-align: center;
+}
+
+.stats h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
