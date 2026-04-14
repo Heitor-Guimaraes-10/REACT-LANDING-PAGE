@@ -7,6 +7,7 @@
   --neutral-color: #64748B;
   --white-color: #FFFFFF;
   --black-color : #000000;
+  --background-color: #f8f9ff;
 
   /* fonte utilizada do google fonts: Inter */
   --fonte-principal: 'Inter', sans-serif;
@@ -26,7 +27,7 @@ box-sizing: border-box; /*O Padding não aumenta o tamanho do elemento*/
 /*------------Base do Documento------------*/
 body {
   font-family: var(--fonte-principal);
-  background-color: var(--white-color);
+  background-color: var(--background-color);
   color: var(--neutral-color);
   line-height: 1.5; /*espacamento entre linhas para melhorar a legibilidade*/
 }

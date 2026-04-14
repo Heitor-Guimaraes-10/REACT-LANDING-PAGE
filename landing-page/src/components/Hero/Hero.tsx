@@ -7,7 +7,7 @@ function Hero(){
 
 return(
     <section className="hero">
-        <div className="container">
+        <div className="container-hero">
         <span className="tagHero">Plataforma de Aprendizado do futuro</span>
         <h1 className="titleHero">Gestão de aprendizado inteligente para <span>escolas técnicas</span></h1>
         <p className="descriptionHero">Centralize avaliações, presença e progresso dos alunos em uma interface intuitiva e potente. Desenvolvido para instituições que buscam excelência acadêmica.</p>
