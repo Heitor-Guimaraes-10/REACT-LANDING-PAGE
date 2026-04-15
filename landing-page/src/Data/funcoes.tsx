@@ -1,13 +1,13 @@
 //dados das funciomalidades da plataforma da nossa landing page
 
-export interface Funcionalidade {
+export interface funcao {
     id: number;
     icon: string;
     title: string;
     description: string;
 }
 
-export const funcionalidades: Funcionalidade[] = [
+export const funcoes: funcao[] = [
 {
     id: 1, 
     icon: '📊', 
@@ -45,3 +45,5 @@ export const funcionalidades: Funcionalidade[] = [
     description: "Gestão de dados em total conformidade com as leis de proteção de dados brasileiras."
 }
 ];
+
+export default funcoes;
