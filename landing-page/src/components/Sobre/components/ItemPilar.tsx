@@ -10,8 +10,11 @@ function ItemPilar({icon, titulo, descricao }: ItemPilarProps) {
       <div>
         <img src={icon} />
       </div>
+      <div>
       <span className="titulo-pilar">{titulo}</span>
+
       <p>{descricao}</p>
+    </div>
     </div>
   );
 }
