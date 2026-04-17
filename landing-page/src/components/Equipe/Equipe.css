@@ -1,0 +1,92 @@
+/* Container principal da seção */
+.equipe {
+    background-color: var(--white-color);
+    padding: 60px 20px; /* Aumentei o respiro vertical */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.grid-equipe {
+    display: flex;
+    flex-direction: row; /* Coloca um ao lado do outro */
+    flex-wrap: wrap;     /* Permite quebrar linha em telas menores */
+    justify-content: center; /* Centraliza os cards na horizontal */
+    gap: 32px;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+/* O Card individual */
+.item-equipe {
+    flex: 1; /* Faz os cards terem o mesmo tamanho */
+    min-width: 200px; 
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    padding: 32px 24px;
+    transition: transform 0.3s ease;
+}
+
+.item-equipe:hover {
+    transform: translateY(-5px);
+}
+
+
+.avatar-equipe {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #000000af; 
+    margin-bottom: 20px;
+}
+
+
+
+.content-equipe {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.name-equipe {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+
+.cargo-equipe {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0047BB; 
+    margin-bottom: 8px;
+}
+
+.description-equipe {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+    max-width: 320px;
+}
+
+
+.titulos h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #0D1B3E;
+    margin-bottom: 40px;
+}
+
+avatar-iniciais{
+
+    color: aliceblue;
+}

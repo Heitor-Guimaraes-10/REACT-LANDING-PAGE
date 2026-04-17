@@ -20,6 +20,7 @@ function Funcionalidades() {
             icon={funcoes.icon}
             title={funcoes.title}
             description={funcoes.description}
+            
           />
         ))}
       </div>
